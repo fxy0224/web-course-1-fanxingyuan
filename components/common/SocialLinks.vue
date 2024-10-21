@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-center space-x-6 pb-6">
+    <div class="common-social-links flex justify-center space-x-6 pb-6 items-center">
         <a href="https://x.com/fsganfcjdjxb" target="_blank" rel="noopener noreferrer" class="text-gray-700 hover:text-gray-900">
             <UIcon name="i-simple-icons-x" class="w-6 h-6"/>
         </a>
@@ -11,3 +11,9 @@
         </a>
     </div>
 </template>
+
+<style>
+.common-social-links {
+    height: 40px;
+}
+</style>
